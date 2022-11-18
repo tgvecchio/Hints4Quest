@@ -31,20 +31,18 @@
 </head>
 
 <body>
-  <a> Wait for Python... </a>
+  <a> Wait... </a>
   <div id="result">  </div>
 
   <py-script>
       import numpy as np
       import pandas as pd
-
       df = pd.read_csv("Deck_of_Hints.csv")
       pyscript.write("result", df.head())
-
       #randnum = np.random.randint(10000, size=1)
       #print(randnum)
-      #onecard = df.loc[1, :].values.tolist()
-      #print(onecard)
+      onecard = df.loc[1, :].values.tolist()
+      print(onecard)
   </py-script>
 
   <a>
