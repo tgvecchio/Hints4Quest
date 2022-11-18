@@ -1,0 +1,197 @@
+A small magical candle that burns without being consumed.
+
+A spool that causes the thread wound on it to match the color of any fabric that it is touched to.
+
+A small gold ring set with a magical stone that dimly glows any color the wearer desires.
+
+A leaf from a Silveroak Tree that never wilts. While you hold the leaf you can speak Sylvan.
+
+A heart shaped locket that allows you to mentally send up to thirteen words once per day to the person whose name is engraved in the locket. They can immediately respond back with thirteen words.
+
+A hat that keeps you magically dry in any rain.
+
+A tent big enough for two people that folds with its poles into a 4 inch cube.
+
+A pair of shoes or boots that never get dirty.
+
+An egg sized stone that grows wet cold hot or dry depending on the weather in 24 hours. If hung from a string the rock swings or hangs depending on the wind in 24 hours.
+
+A small herb pot that can be used to cast prestidigitation.
+
+A vase that keeps any flowers placed in it from wilting.
+
+A silver broach that can change into the shape of any flower the wearer is familiar with.
+
+A pea sized crystal and a compass that always points toward the crystal.
+
+A small copper feather that negates the first 20 feet of falling damage.
+
+A fishing hook that wriggles like a worm negating the need for bait.
+
+A magical stone hawk that can be set to attack any tiny or small beasts that approach within 300 feet. 
+
+A small box that opens on the top and bottom. Each side of the box opens into a separate extradimensional space the size of the box.
+
+A stone mug carved with images of feasting dwarves. Any water put in the mug turns into dwarven ale.
+
+A rose from the Shrine of Roses that never wilts. Once per day the rose can cause a flowering plant to sprout flowers and bloom.
+
+A Sun Sphere from the Empire of the Sun. When activated the Sun Sphere looks like a miniature sun six inches across and provides light equal to a light spell.
+
+A gemstone with a bloodshot and constantly roving beholder eye visible deep inside it. Once per day the owner can gain 1d4 to a saving throw against a spell.
+
+A flat iron rod with a button on one end. When the button is pressed the rod becomes magically fixed in place until the button is pressed again.
+
+A horn that when blown can clearly be heard by everyone within 300 feet. After blowing the horn the users words are amplified for the next minute and can also be heard by everyone within 300 feet.
+
+An ancient and unbreakable ring.
+
+A necklace or circlet woven of meadow flowers that never wilt.
+
+A key that opens any lock you locked.
+
+A water skin that can hold a barrels worth of water 59 gallons.
+
+A bell that awakens anyone within 30 feet when rung.
+
+A torc engraved with horses that allows you to march an extra hour a day without having to make an exhaustion check.
+
+A pair of glasses that gives you 10’ darkvision.
+
+A sewing needle that will finish sewing any seam you started on its own. 
+
+A wood cutters axe or adze treat as a hand axe that deals double damage to wooden objects.
+
+A small raven carved out of stone or wood. When activated the raven will count any humanoids it sees other than your allies.
+
+A dragonfly carved out of jade that when active flies around you killing mosquitos and flies. 
+
+A tiny platinum figurine of Bahatmut that gives the bearer advantage on diplomacy checks with good dragons.
+
+A preserved and shrunken eye set in a ring. While worn the bearer has advantage on deception checks to mimic animal sounds.
+
+A pound of troll flesh that constantly regenerates providing enough meat every day for two humans. The flavor is disgusting.
+
+An outfit of clothing that never gets dirty and magically mends any rips or tears.
+
+A chamber pot that disintegrates any excrement put in it.
+
+A comb made of bone that causes your hair to grow 1 inch for every minute you brush it. Your hair stops growing when it is as long as you are tall.
+
+A pin with clear glass beads that keeps natural smoke at least 1 foot away from you. 
+
+A glowing rod that drives away dampness and moisture in a 10 foot radius.
+
+A set of seven glowing magical gems that can be set swirling around you.
+
+A two inch tall animal spirit that is friendly and always remains within 5 feet of you. 
+
+A small blank book. As an action you can copy another book or other document into your book. The copy remains until you will it to be erased or copy another document.
+
+A staff that can be turned into a tree or back into a staff.
+
+A fish mask that lets you hold your breath twice as long as normal.
+
+A petrified rat brain that lets you cast dominate monster once per long rest on a small or tiny rat or mouse.
+
+A gold coin that you can summon back to your hand as long as it’s within 20 feet.
+
+A small red gem that is warm to the touch. When the gem is placed on inanimate flammable material the material catches on fire in 1d4 rounds.
+
+A small magical snake that can take the form of a tattoo on one of your arms.
+
+A holy symbol of Chauntea that you can activate once per day to weed water and care for a field of crops no larger than half an acre.
+
+A holy symbol of Helm that you can activate once per day to gain 1d4 to an initiative roll.
+
+A holy symbol of Waukeen that gives you 1d4 on checks to run a business.
+
+A holy symbol of Myrkul once per day you can use it to animate a tiny beast. The tiny skeleton or zombie remains under your control until it is destroyed or you animate a new undead.
+
+A holy symbol of Yeenoghu that once per day you can activate as a bonus action to allow a gnoll within 30 feet to make an attack as a reaction.
+
+A holy symbol of Amaunator that makes you immune to the exhaustion effects from hot weather.
+
+A holy symbol of Moradin that makes you immune to the poisoning effects of alcohol. 
+
+A holy symbol of Eilistraee that allows you to sing beautifully.
+
+A holy symbol of Grumbar that allows you to speak Terran.
+
+A jar containing an aboleth mucus gland. If you breathe in the mucus you are able to breathe through your skin underwater for thirty minutes.
+
+A whistle that can only be heard by your allies.
+
+A cup or plate that change color when they come in contact with poison.
+
+A brass pitcher and a silver fly. As long as the fly is within 15 feet of the pitcher it whispers anything the pitcher hears.
+
+A musical instrument that magically plays simple tunes and songs.
+
+A small doll that mimics your movements.
+
+A halter that when placed on a cow donkey mule horse or camel gives you advantage on animal handling checks for that beast.
+
+A pack saddle that doubles the weight the beast wearing it can carry.
+
+A necklace of animal teeth. Once per long rest as a bonus action you can cause the necklace to bite you dealing 2 points of piercing damage.
+
+A pair of silver bars twisted together. Once per day when you use Bardic Inspiration you may designate two individuals. Either can use the Bardic Inspiration die but once it has been used it’s gone. 
+
+A set of sheeps knucklebones that allow you to cast the ritual Augury in 1 minute if you can normally cast it as a ritual.
+
+A fetish made of bone and feathers that lets you cast the ritual Speak With Animals in 1 minute if you can normally cast it as a ritual.
+
+A gem that adheres to your forehead like a third eye. If you spend a Ki point your speed increases by 5 feet for that round.
+
+A vial of holy water fiends or glowing crystal undead that focuses your divine senses. When you use Divine Sense you can choose to only detect fiends or undead depending on your trinket and the range of your senses extends to 90 feet.
+
+A mummified body part of a creature. If this creature’s type is your favored enemy selection than once per day you can reroll a 1 on a Survival or Intelligence check related to the creature type.
+
+An elemental gem pick cold fire thunder electricity that once per day can act as a focus for a metamagic spell. The gem changes half the spells damage type to match the gem.
+
+A token of a fey electricity far realm psychic or fiendish fire power. Once per day if you cast eldritch blast the token changes the damage type of the blast. 
+
+A ritual book that lets you cast arcane rituals half the normal time.
+
+An obsidian ring that allows one individual you can see who can’t speak in Thieves’ Cant to understand you when you speak in Thieves’ Cant.
+
+A steel torc engraved with the image of boars. If you roll a 1 to recover hit points when you use your second wind you may reroll the die. You must use the results of the second roll.
+
+A mirror that can grow and shrink from hand sized to full length.
+
+A ring that turns a willing wearer to stone until the ring is removed.
+
+A nightcap that when worn gives you pleasant dreams.
+
+A small fan with a humming bird painted on it that will hover near you and fan you.
+
+A glass orb filled with smoke. If you concentrate on it an image of the person you are thinking about appears.
+
+A stone orb that half lit and half dark. The dark and light halves rotate around the orb once per day.
+
+A 6 inch long crystal coffin. When empty if touched to a dead body the body is shrunken and placed inside the coffin. The body can be released from the coffin by opening it. While in the coffin the body is under the effects of a gentle repose spell.
+
+A brass key that burns you when you hold it 1pt per round if you aren’t resistant to fire and allows you to speak Ignan. 
+
+An iron pot or pan whos handle never gets hot.
+
+The feather of a Solar that is always immaculate. While holding it you can speak Celestial.
+
+A horn from a Devil or Demon that allows you to speak Infernal or Abyssal respectively.
+
+A spirit in the shape of a gear. The spirit can instantly count anything you can see or let you know when a specific amount of time has passed.
+
+A dowsing rod that points to any water within 20 feet.
+
+A wooden wand that lets you magically move unattended objects weight less than a pound that are within 15 feet.
+
+A statue of a cricket that chirps softly in the dark. The cricket stops chirping if an invisible or incorporeal creature comes within 10 feet.
+
+A collar that lets a dog or cat speak in common. It doesn’t change the animal’s intelligence. 
+
+An acorn that prevents you from being hit by natural lightning. 
+
+A finger bone from an executed man in a small wooden box. You have 1 on death saving throws while it’s in your possession. 
+
+A book of very short stories. Reading a story from the book an action acts like using a healer’s kit
