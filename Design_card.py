@@ -3,7 +3,7 @@ def design_card(a):
     aa, bb, cc, dd, ee, ff, d20, hh, ori, direc, d10, d100, crea, spe, prepo, ver, wea, confl, confl2, pla, sym, nou, fail, rac, trin, wdnd, dmg = a
     #ff=round_nr
     print('D100', d100, '||', 'D20', d20, '||', 'D10', d10, '||', direc, '✓')
-    print('Action Potential:', ff, alert, '|∆|', sym)
+    print('Action Potential:', ff, '|∆|', sym)
     print('|    Low odds:', cc)
     print('||       Odds:', bb)
     print('||| High Odds:', aa)
