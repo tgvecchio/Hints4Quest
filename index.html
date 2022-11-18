@@ -22,20 +22,27 @@
   <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 
   <py-env>
+      - numpy
+      - pandas
       - paths:
-        - ./H4Q.py
+        - ./Deck_of_Hints.csv
   </py-env>
 
 </head>
 
 <body>
   <a> Wait for Pyhton </a>
-  <h1> ... </h1>
+  <h1> id="result" </h1>
 
   <py-script>
-      print('H4Q Running')
-      H4Q.main()
+      import numpy as np
+      import pandas as pd
+      df = pd.read_csv("Deck_of_Hints.csv")
+      pyscript.write("results", df.head())
 
+      randnum = np.random.random(size=1)
+      onecard = df.loc[randnum, :].values.tolist()
+      print(onecard)
   </py-script>
 
 </body>
