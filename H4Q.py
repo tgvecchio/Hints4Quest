@@ -1,8 +1,7 @@
 import random
-import uuid
+#import uuid
 import csv
 import os
-import urllib
 
 def support_files():
     cwd = os.getcwd()
@@ -92,7 +91,8 @@ def create_values():
   D20=round(random.randrange(1,21))
   D10=round(random.randrange(1,11))
   Act_pot=round(random.gauss(5,2))
-  UID=uuid.uuid4()
+  UID='inactive'
+  #UID=uuid.uuid4()
   Casa_tel=random.choice(casa_tel)
   yes_25 = reset(25)
   yes_50 = reset()
@@ -207,8 +207,7 @@ def design_card(a):
     
     print('D100', d100, '||', 'D20', d20, '||', 'D10', d10, '||', direc, '✓')   
     print('Action Potential:', ff, alert, '|∆|' , sym)
-    #print()
-    #print('ODDS: low', cc, '|', 'norm', bb,'|','high',aa)
+
     print('|    Low odds:', cc)
     print('||       Odds:', bb)
     print('||| High Odds:', aa)
@@ -232,7 +231,6 @@ def design_card(a):
     print('||| Consequence:', fail)
     print()
     print('| Location:', pla)
-    #print('An event:')
     print('|| Event', ver, ' ', prepo, ' ', nou)
     print()
     print('|',trin)
