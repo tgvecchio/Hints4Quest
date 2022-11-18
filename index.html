@@ -42,9 +42,8 @@
       df = pd.read_csv("Deck_of_Hints.csv")
       randnum = np.random.randint(10000, size=1)
       onecard = df.loc[randnum, :].values.tolist()
-      print(onecard)
-      for i in onecard: print(i)
-      #Design_card.design_card(onecard)
+      print(onecard[0])
+      Design_card.design_card(onecard[0])
   </py-script>
 
   <a>
