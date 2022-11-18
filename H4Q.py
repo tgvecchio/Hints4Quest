@@ -4,78 +4,68 @@ import csv
 import os
 import urllib
 
-### TO IMPORT ANOTHER SET OF LISTS
-#from fantasy import *
-	
-#from PIL import Image
+def support_files():
+    cwd = os.getcwd()
+    print ('Working directory', cwd)
+    cd = os.path.dirname(os.path.abspath(__file__))
+    print('Current directory',cd)
+    print()
+    print('Reading lists')
 
-cwd = os.getcwd()
-print ('Working directory', cwd)
-cd = os.path.dirname(os.path.abspath(__file__))
-print('Current directory',cd)
-print()
+    global casa_tel
+    global arch
+    global race
+    global myth
+    global spell
+    global prep
+    global trink
+    global tempv
+    global weapon
+    global place
+    global failure
+    global noun
+    global orientation_a
+    global orientation_b
+    global kunderas_personae_PLURALITY
+    global kunderas_personae_PERSONIFICATION
+    global kunderas_personae_HISTORY
+    global kunderas_personae_COMMUNICATION
+    global direction
+    global conflict_type
+    global conflict_type2
+    global symbols
+    global weapondnd
+    global damage_status
+    global Round_nr
 
+    casa_tel = [line.strip() for line in (line.rstrip('\n') for line in open(cd + "/" + "00casa_tel.txt")) if line.strip() != '']
+    arch = [line.rstrip('\n') for line in open(cd + "/" + "00archetypes.txt")   if line.strip() != '']
+    race=[line.rstrip('\n') for line in open(cd + "/" + "00races.txt")  if line.strip() != '']
+    myth =  [line.rstrip('\n') for line in open( cd + "/" + "00Myth_creatures.txt") if line.strip() != '' ]
+    spell = [line.rstrip('\n') for line in open(cd + "/" + "spells.txt")  if line.strip() != '']
+    prep =   [line.rstrip('\n') for line in open(cd + "/" + "prepositions.txt") if line.strip() != '' ]
+    trink =   [line.rstrip('\n') for line in open( cd + "/" + "trinkets.txt")  if line.strip() != '']
+    tempv =   [line.rstrip('\n') for line in open(cd + "/" + "tempverb.txt")  if line.strip() != '']
+    weapon =   [line.rstrip('\n') for line in open(cd + "/" + "weapon.txt") if line.strip() != '']
+    place =   [line.rstrip('\n') for line in open(cd + "/" + "places.txt") if line.strip() != '']
+    failure=[line.rstrip('\n') for line in open(cd + "/" + "consequence.txt") if line.strip() != '']
+    noun=[line.rstrip('\n') for line in open(cd + "/" + "nounlist.txt") if line.strip() != '']
 
-########################
-#. Support files.      #
-########################
-print('Reading lists')
+    orientation_a =['Evil', 'Good', 'Neutral']
+    orientation_b =['Chaos', 'Lawfull', 'Neutral']
 
-#obs remove empty lines:::::     if line.strip() != ''
+    kunderas_personae_PLURALITY = ['Singular', 'Outsider','Cloned','By others','False unity','Trviality']
+    kunderas_personae_PERSONIFICATION = ['Soul','Face', 'Body', 'Corpse']
+    kunderas_personae_HISTORY = ['Awarness','Agnostic','Idyll','Utter destitution']
+    kunderas_personae_COMMUNICATION = ['Missinterpretation','Graphomaniac','Truthfull','Silent']
 
-casa_tel = [line.strip() for line in (line.rstrip('\n') for line in open(cd + "/" + "00casa_tel.txt")) if line.strip() != '']
-arch = [line.rstrip('\n') for line in open(cd + "/" + "00archetypes.txt")   if line.strip() != '']
-race=[line.rstrip('\n') for line in open(cd + "/" + "00races.txt")  if line.strip() != '']
-myth =  [line.rstrip('\n') for line in open( cd + "/" + "00Myth_creatures.txt") if line.strip() != '' ]
-## del myth 'Edit'
-#20_types_magic_user = from duel
-spell = [line.rstrip('\n') for line in open(cd + "/" + "spells.txt")  if line.strip() != '']
-prep =   [line.rstrip('\n') for line in open(cd + "/" + "prepositions.txt") if line.strip() != '' ]
-trink =   [line.rstrip('\n') for line in open( cd + "/" + "trinkets.txt")  if line.strip() != '']
-##trin list remove some text
-tempv =   [line.rstrip('\n') for line in open(cd + "/" + "tempverb.txt")  if line.strip() != '']
-weapon =   [line.rstrip('\n') for line in open(cd + "/" + "weapon.txt") if line.strip() != '']
-place =   [line.rstrip('\n') for line in open(cd + "/" + "places.txt") if line.strip() != '']
-failure=[line.rstrip('\n') for line in open(cd + "/" + "consequence.txt") if line.strip() != '']
-noun=[line.rstrip('\n') for line in open(cd + "/" + "nounlist.txt") if line.strip() != '']
-
-
-orientation_a =['Evil', 'Good', 'Neutral']
-orientation_b =['Chaos', 'Lawfull', 'Neutral']
-
-kunderas_personae_PLURALITY = ['Singular', 'Outsider','Cloned','By others','False unity','Trviality']
-kunderas_personae_PERSONIFICATION = ['Soul','Face', 'Body', 'Corpse']
-kunderas_personae_HISTORY = ['Awarness','Agnostic','Idyll','Utter destitution']
-kunderas_personae_COMMUNICATION = ['Missinterpretation','Graphomaniac','Truthfull','Silent']
-
-direction=['N', 'NE','E','SE','S','SW','W','NW']
-
-conflict_type=['Man', 'Society','Nature', 'Technology','Fate']
-conflict_type2=['Man', 'Self', 'Society','Nature', 'Technology','Fate']
-
-symbols=['PROTECT', 'ATTACK', 'BUILD', 'DESTROY', 'HEAL', 'KILL', 'FIND', 'HIDE']
-
-weapondnd = ['Crossbow Light', 'Dart', 'Shortbow', 'Sling', 'Blowgun', 'Crossbow hand', 'Crossbow Heavy', 'Longbow', 'Net', 'Club','Dagger','Greatclub','Handaxe','Javelin','Light hammer','Mace','Quarterstaff','Sickle','Spear','Unarmed Strike', 'Battleaxe','Flail','Glaive','Greataxe','Greatsword','Halberd','Lance','Longsword','Maul','Morningstar','Pike','Rapier','Scimitar','Shortsword','Trident','War pick','Warhammer','Whip']
-
-damage_status = ['Pathetic', 'Bad', 'Medium', 'Good', 'Excellent','Superior']
-
-
-
-######$$##############
-## copy as ... cd + "/" + ...
-#tarch = [line.rstrip('\n') for line in open(cd + "/" + "00archetypes.txt")]
-#print(tarch)
-
-#bfvurl = "https://drive.google.com/file/d/1IVCJOEDJjAKrTEbItfAvysYj7TvFmFg3/view?usp=drivesdk"
-#print(help(urllib))
-#bfv = urllib.request.urlopen(bfvurl)
-#BF_Virtues = [line.rstrip('\n') for line in open(bfv)]
-#print(BF_Vitues)
-###########$$$$#####@##
-
-
-
-Round_nr = int()
+    direction=['N', 'NE','E','SE','S','SW','W','NW']
+    conflict_type=['Man', 'Society','Nature', 'Technology','Fate']
+    conflict_type2=['Man', 'Self', 'Society','Nature', 'Technology','Fate']
+    symbols=['PROTECT', 'ATTACK', 'BUILD', 'DESTROY', 'HEAL', 'KILL', 'FIND', 'HIDE']
+    weapondnd = ['Crossbow Light', 'Dart', 'Shortbow', 'Sling', 'Blowgun', 'Crossbow hand', 'Crossbow Heavy', 'Longbow', 'Net', 'Club','Dagger','Greatclub','Handaxe','Javelin','Light hammer','Mace','Quarterstaff','Sickle','Spear','Unarmed Strike', 'Battleaxe','Flail','Glaive','Greataxe','Greatsword','Halberd','Lance','Longsword','Maul','Morningstar','Pike','Rapier','Scimitar','Shortsword','Trident','War pick','Warhammer','Whip']
+    damage_status = ['Pathetic', 'Bad', 'Medium', 'Good', 'Excellent','Superior']
+    Round_nr = int()
 
 def create_values():
   canvas = 'clear'
@@ -253,10 +243,12 @@ def design_card(a):
 
 def main():
   canvas = 'clear'
-  #os.system(canvas)
+
   print ('#######################')
   print ('Welcome to Hints 4 Quest')
   print ('#######################')
+
+  support_files()
   
   while True:
     #print('------------------?')
