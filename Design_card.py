@@ -1,6 +1,8 @@
 def design_card(a):
     #parts = a.split(',')
-    aa, bb, cc, dd, ee, ff, d20, hh, ori, direc, d10, d100, crea, spe, prepo, ver, wea, confl, confl2, pla, sym, nou, fail, rac, trin, wdnd, dmg = a
+    #aa, bb, cc, dd, ee, ff, d20, hh, ori, direc, d10, d100, crea, spe, prepo, ver, wea, confl, confl2, pla, sym, nou, fail, rac, trin, wdnd, dmg = a
+    
+    dmg, wdnd, trin, rac, fail, nou, sym,pla,confl2,confl,wea,ver,prepo,spe,crea,d100,d10,direc,ori,hh,d20,ff,ee,dd,cc,bb,aa = a
     #ff=round_nr
     print('D100', d100, '||', 'D20', d20, '||', 'D10', d10, '||', direc, '✓')
     print('Action Potential:', ff, '|∆|', sym)
