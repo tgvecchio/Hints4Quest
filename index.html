@@ -17,6 +17,13 @@
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <style>
+    .CARD {
+     border: 5px outset black;
+     background-color: white;
+     text-align: center;
+     }
+  </style>
 
   <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
   <script defer src="https://pyscript.net/latest/pyscript.js"></script>
@@ -28,25 +35,34 @@
         - ./Deck_of_Hints.csv
         - ./Design_card.py
   </py-env>
-
 </head>
 
 <body>
-  <a> H4Q Random Card </a>
-  <div id="result">  </div>
-
   <py-script>
       import numpy as np
       import pandas as pd
       import Design_card
       df = pd.read_csv("Deck_of_Hints.csv")
-      randnum = np.random.randint(10000, size=1)
-      onecard = df.loc[randnum, :].values.tolist()
-      for i in onecard[0]: print(i)
-      #Design_card.design_card(onecard[0])
   </py-script>
 
-  <a>
+ <div class="CARD">
+  <h2>H4Q Random Card </h2>
+  <p>
+  <py-script>
+      randnum = np.random.randint(10000, size=1)
+      onecard = df.loc[randnum, :].values.tolist()
+      dmg, wdnd, trin, rac, fail, nou, sym,pla,confl2,confl,wea,ver,prepo,spe,crea,d100,d10,direc,ori,hh,d20,ff,ee,dd,cc,bb,aa = onecard[0]
+      print(f"D100 {d100} || D20 {d20} || D10 {d10} ||  {direc} ✓")
+      print(f'Action Potential: {ff} |∆|  {sym} ')
+      print(f'| Low odds: {cc}  ||  Odds: {bb}  ||| High Odds: {aa} ')
+      print(f"Phonetic Name: {dd} || Creature: {rac} || {crea}")
+      print(f"Weapon//tool: {wdnd} //  {wea} || Condition: {dmg}")
 
-  </a>
+      def show_output():
+        print('Click')
+  </py-script>
+  </p>
+  </div>
+
+<button id = "show_output" class = "btn btn-primary" type = "submit" pys-onClick="show_output">Refresh</button>
 </body>
